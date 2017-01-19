@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781BC8A61E31414E00F05083 /* EKVPNTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781BC8A51E31414E00F05083 /* EKVPNTools.swift */; };
 		78FF98061E2E9CD00043BFDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF98051E2E9CD00043BFDC /* AppDelegate.swift */; };
 		78FF98081E2E9CD00043BFDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF98071E2E9CD00043BFDC /* ViewController.swift */; };
 		78FF980B1E2E9CD00043BFDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FF98091E2E9CD00043BFDC /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		781BC8A51E31414E00F05083 /* EKVPNTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKVPNTools.swift; sourceTree = "<group>"; };
 		78FF98021E2E9CD00043BFDC /* EKVPNNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKVPNNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FF98051E2E9CD00043BFDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78FF98071E2E9CD00043BFDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				78FF980E1E2E9CD00043BFDC /* LaunchScreen.storyboard */,
 				78FF98111E2E9CD00043BFDC /* Info.plist */,
 				78FF98171E2E9F3F0043BFDC /* EKVPN.swift */,
+				781BC8A51E31414E00F05083 /* EKVPNTools.swift */,
 			);
 			path = EKVPNNative;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781BC8A61E31414E00F05083 /* EKVPNTools.swift in Sources */,
 				78FF98181E2E9F3F0043BFDC /* EKVPN.swift in Sources */,
 				78FF98081E2E9CD00043BFDC /* ViewController.swift in Sources */,
 				78FF98061E2E9CD00043BFDC /* AppDelegate.swift in Sources */,
@@ -301,6 +305,7 @@
 				78FF98161E2E9CD00043BFDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
